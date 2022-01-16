@@ -1,13 +1,14 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
-    cout << "Saya Mahasiswa Teknik Informatika UDINUS 2021" << endl;
-    cout << "Saya sedang belajar Bahasa Pemrograman C++" << endl;
-    cout << "Setiap hari di manapun saya berada" << endl;
-    cout << "Harus tetap semangat Latihan dan menjaga Kesehatan selalu meski" << endl;
-    cout << "di masa Pandemi Covid" <<  endl;
+    int a,b;
+    float c;
+    a=10;
+    b=5;
+    c=float(a+b)/2;
+    cout << "Isi variabel a = " <<a<<endl;
+    cout << "Isi variabel b = " <<b<<endl;
+    cout << "Isi variabel c = " <<c<<endl;
     return 0;
 }
