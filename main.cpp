@@ -4,17 +4,10 @@ using namespace std;
 
 int main()
 {
-    //portofolio.
-    cout<< "Hello World \n" <<endl;
-    cout<< "\n Selamat Datang di dasar pemrograman" <<endl;
-    cout<< "Perkenalkan Nama Saya \n" <<endl;
-    cout<< "\n Biodata Diri \n" <<endl;
-    cout<< "Nama      : Madinatul Musyarifah \n" <<endl;
-    cout<< "NIM       : A11.2021.13938 \n" <<endl;
-    cout<< "Hobi      : Olahraga \n" <<endl;
-    cout<< "Instagram : madinna.my \n"<<endl;
-    cout<< "\n sekian perkenalan dari saya Terima Kasih \n"<<endl;
-
-
+    cout << "Saya Mahasiswa Teknik Informatika UDINUS 2021" << endl;
+    cout << "Saya sedang belajar Bahasa Pemrograman C++" << endl;
+    cout << "Setiap hari di manapun saya berada" << endl;
+    cout << "Harus tetap semangat Latihan dan menjaga Kesehatan selalu meski" << endl;
+    cout << "di masa Pandemi Covid" <<  endl;
     return 0;
 }
