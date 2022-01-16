@@ -1,33 +1,13 @@
 #include <iostream>
-
 using namespace std;
-
-int main(){
-
-  // deklarasi tipe data variabel
-  string nama;
-  int umur;
-  char jenis_kelamin;
-
-  // --- proses input ---
-  cout << "Siapakah namamu?" << endl;
-  cout << "jawab: ";
-  // menyimpan data ke variabel
-  getline(cin,nama);
-
-  cout << "Berapa umurmu?" << endl;
-  cout << "jawab: ";
-  // menyimpan data ke variabel
-  cin >> umur;
-
-  cout << "Jenis kelamin [L/P]: ";
-  // menyimpan data ke variabel
-  cin >> jenis_kelamin;
-
-  // --- proses output ---
-  cout << "Salam kenal, " << nama << " Sekarang engkau berusia ";
-  cout << umur << " dan kau berjenis kelamin "<< jenis_kelamin;
-
-  return 0;
-
+int main()
+{
+int a,b;
+float c;
+a=10;
+b=5;
+c=float(a+b)/2;
+cout << ”isi variabel (a) =\n" << a<<endl;
+cout<<”Isi variabel (b) = ”>> b<<endl;
+cout<<”Isi variabel c = ”<<c<<endl;
 }
