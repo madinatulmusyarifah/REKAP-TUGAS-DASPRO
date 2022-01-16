@@ -2,17 +2,32 @@
 
 using namespace std;
 
-int main()
-{
-    /* Deklarasi awal  */
-    float pi = 3.14;            /* Konstanta nilai pi*/
-    float r;                    /* Jari2 lingkaran (cm) */
-    float L;                    /* Luas lingkaran (cm) */
+int main(){
 
-    /* ALGORITMA */
-    cout << "Masukan Jari-jari lingkaran (r) :\n" << endl;  /* tampilan */
-    cin>>r;
-    L = pi*r*r;
-    cout << "jadi luas jari-jari lingkaran" <<L<< "\n";
-    return 0;
+  // deklarasi tipe data variabel
+  string nama;
+  int umur;
+  char jenis_kelamin;
+
+  // --- proses input ---
+  cout << "Siapakah namamu?" << endl;
+  cout << "jawab: ";
+  // menyimpan data ke variabel
+  getline(cin,nama);
+
+  cout << "Berapa umurmu?" << endl;
+  cout << "jawab: ";
+  // menyimpan data ke variabel
+  cin >> umur;
+
+  cout << "Jenis kelamin [L/P]: ";
+  // menyimpan data ke variabel
+  cin >> jenis_kelamin;
+
+  // --- proses output ---
+  cout << "Salam kenal, " << nama << " Sekarang engkau berusia ";
+  cout << umur << " dan kau berjenis kelamin "<< jenis_kelamin;
+
+  return 0;
+
 }
